@@ -2,9 +2,8 @@
 
 namespace App\Controller;
 
-use App\Entity\Location;
-use App\Repository\LocationRepository;
-use App\Repository\MeasurementRepository;
+use App\Form\Repository\LocationRepository;
+use App\Form\Repository\MeasurementRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;

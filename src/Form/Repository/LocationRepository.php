@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repository;
+namespace App\Form\Repository;
 
 use App\Entity\Location;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;

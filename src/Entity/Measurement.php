@@ -2,7 +2,7 @@
 
 namespace App\Entity;
 
-use App\Repository\MeasurementRepository;
+use App\Form\Repository\MeasurementRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
