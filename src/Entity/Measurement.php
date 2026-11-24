@@ -64,4 +64,13 @@ class Measurement
 
         return $this;
     }
+
+    public function getFahrenheit(): ?float
+    {
+        if ($this->celsius === null) {
+            return null;
+        }
+
+        return ($this->celsius * 9 / 5) + 32;
+    }
 }
